@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6A27A44B23E1287800CF11F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27A44A23E1287800CF11F6 /* AppDelegate.swift */; };
 		6A27A44D23E1287800CF11F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27A44C23E1287800CF11F6 /* SceneDelegate.swift */; };
-		6A27A44F23E1287800CF11F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A27A44E23E1287800CF11F6 /* ViewController.swift */; };
 		6A27A45223E1287800CF11F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A27A45023E1287800CF11F6 /* Main.storyboard */; };
 		6A27A45423E1288100CF11F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A27A45323E1288100CF11F6 /* Assets.xcassets */; };
 		6A27A45723E1288100CF11F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A27A45523E1288100CF11F6 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		6A27A44723E1287800CF11F6 /* Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A27A44A23E1287800CF11F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A27A44C23E1287800CF11F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A27A44E23E1287800CF11F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A27A45123E1287800CF11F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A27A45323E1288100CF11F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A27A45623E1288100CF11F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +54,46 @@
 		6A27A44923E1287800CF11F6 /* Rainbow */ = {
 			isa = PBXGroup;
 			children = (
-				6A27A44A23E1287800CF11F6 /* AppDelegate.swift */,
-				6A27A44C23E1287800CF11F6 /* SceneDelegate.swift */,
-				6A27A44E23E1287800CF11F6 /* ViewController.swift */,
-				6A27A45023E1287800CF11F6 /* Main.storyboard */,
-				6A27A45323E1288100CF11F6 /* Assets.xcassets */,
-				6A27A45523E1288100CF11F6 /* LaunchScreen.storyboard */,
+				6A27A46123E12D0D00CF11F6 /* Model */,
+				6A27A46023E12CC900CF11F6 /* Views */,
+				6A27A45F23E12CAE00CF11F6 /* View Controllers */,
+				6A27A45E23E12C0F00CF11F6 /* Resources */,
 				6A27A45823E1288100CF11F6 /* Info.plist */,
 			);
 			path = Rainbow;
+			sourceTree = "<group>";
+		};
+		6A27A45E23E12C0F00CF11F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A27A44A23E1287800CF11F6 /* AppDelegate.swift */,
+				6A27A44C23E1287800CF11F6 /* SceneDelegate.swift */,
+				6A27A45323E1288100CF11F6 /* Assets.xcassets */,
+				6A27A45523E1288100CF11F6 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6A27A45F23E12CAE00CF11F6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6A27A46023E12CC900CF11F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A27A45023E1287800CF11F6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A27A46123E12D0D00CF11F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +167,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A27A44F23E1287800CF11F6 /* ViewController.swift in Sources */,
 				6A27A44B23E1287800CF11F6 /* AppDelegate.swift in Sources */,
 				6A27A44D23E1287800CF11F6 /* SceneDelegate.swift in Sources */,
 			);
