@@ -6,4 +6,9 @@
 //  Copyright © 2020 Michael Kagan. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct MyColor {
+    let name: String
+    let color: UIColor
+}
